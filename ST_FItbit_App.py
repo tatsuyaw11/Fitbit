@@ -1,7 +1,5 @@
 import streamlit as st
 import pandas as pd
-from sklearn import datasets
-import mysql.connector
 import datetime
 from datetime import datetime as dt, date, time
 import numpy as np
@@ -17,7 +15,7 @@ DEBUG=0
 ## グラフ出力（ボタン）
 ## 描画
 ## Excel出力(ボタン)
-PATH='C:/Users/tw14383/Desktop/Python/src/fitbit/'
+PATH=''
 user_df=pd.read_csv(PATH+'user_list.csv',encoding='cp932')
 user_list = user_df['name'].unique()
 def pct_abs(pct, raw_data):
@@ -106,9 +104,9 @@ def main():
             
             #DATE='2023-03-12'
             theta = np.linspace(0,2*np.pi) # 0~2πのndarrayを生成
-            HR_df = pd.read_csv('C:/Users/tw14383/Desktop/Python/src/fitbit/t.csv')
-            CAL_df = pd.read_csv('C:/Users/tw14383/Desktop/Python/src/fitbit/c.csv')
-            STEP_df = pd.read_csv('C:/Users/tw14383/Desktop/Python/src/fitbit/S.csv')
+            HR_df = pd.read_csv('t.csv')
+            CAL_df = pd.read_csv('c.csv')
+            STEP_df = pd.read_csv('S.csv')
 
             day_summary=pd.DataFrame({
                 'Weight':["{:.1f}".format(60)],
