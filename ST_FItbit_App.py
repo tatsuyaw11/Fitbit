@@ -244,6 +244,7 @@ def main():
 
         #################################################################
         plt.style.use('seaborn-darkgrid')
+        plt.rcParams['font.family'] = 'Meiryo' 
         ticksize=14
         fontsize=18
         
