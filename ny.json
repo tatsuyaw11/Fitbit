@@ -1,8 +1,8 @@
 {
-  "access_token": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMzk5WFciLCJzdWIiOiI4RDlQSDgiLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJlY2cgcnNldCByb3h5IHJwcm8gcm51dCByc2xlIHJjZiByYWN0IHJsb2MgcnJlcyByd2VpIHJociBydGVtIiwiZXhwIjoxNjg2NjQxOTQ1LCJpYXQiOjE2ODY2MTMxNDV9.HCxA9aCObxpr07J4F4Mbkh3bZi0m1ppfx86nD9hi57c",
+  "access_token": "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIyMzk5WFciLCJzdWIiOiI4RDlQSDgiLCJpc3MiOiJGaXRiaXQiLCJ0eXAiOiJhY2Nlc3NfdG9rZW4iLCJzY29wZXMiOiJyc29jIHJlY2cgcnNldCByb3h5IHJudXQgcnBybyByc2xlIHJjZiByYWN0IHJyZXMgcmxvYyByd2VpIHJociBydGVtIiwiZXhwIjoxNjg3NDI0MDU5LCJpYXQiOjE2ODczOTUyNTl9.jmLRTjK6G8v4BLamShZuZQfKDfOK7Ut7RGBA5GD4WuU",
   "expires_in": 28800,
-  "refresh_token": "70742af7567b819393edc500d6e4f619db91bf2a243ea29d40d75ba700fb0eba",
-  "scope": "respiratory_rate temperature sleep electrocardiogram cardio_fitness weight settings social profile heartrate activity location oxygen_saturation nutrition",
+  "refresh_token": "3786ab247eae10e3c4dbc07873838155678bb4a83e0457528c4de9d6ad6a3350",
+  "scope": "nutrition electrocardiogram settings oxygen_saturation temperature social profile location weight cardio_fitness respiratory_rate sleep activity heartrate",
   "token_type": "Bearer",
   "user_id": "8D9PH8"
 }
